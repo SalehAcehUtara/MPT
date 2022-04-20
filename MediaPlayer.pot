@@ -1,0 +1,1402 @@
+# Translations template for MediaPlayer.
+# Copyright (C) 2022 MediaPlayer-team
+# This file is distributed under the same license as the MediaPlayer
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaPlayer VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-04-20 12:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: C:/Users/Calvin/Documents/MP/bot/app_vars.py:9
+msgid ""
+"MediaPlayer\n"
+"A player that can be use to play audio from YouTube, VK and direct audio "
+"link for TeamTalk.\n"
+"Edit By Loh Boon Keat.\n"
+"For more information or if you want to host this player on your own "
+"server or channel, you can directly contact me from the contact "
+"information given. Pm me with the word \"commands\" without the quotation"
+" mark to get the list of commands."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/app_vars.py:17
+msgid ""
+"WhatsApp: +60 11-1141 9588\n"
+"Email: lbk2907@gmail.com"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/TeamTalk/__init__.py:150
+msgid "pm me with the word \"gs\" without the quotation mark to get started"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/__init__.py:147
+#: C:/Users/Calvin/Documents/MP/bot/modules/uploader.py:61
+msgid "Error: {}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/__init__.py:159
+msgid "you are banned"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/__init__.py:180
+msgid "this player is locked"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/__init__.py:184
+msgid "this command is blocked"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/__init__.py:208
+msgid "unknown command"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:21
+msgid ""
+"MOTD Create new message of the day. Note: Do to TeamTalk restriction, "
+"your message of the day cannot more than 512 characters per line. If your"
+" message of the day is longer than the TeamTalk restriction, please limit"
+" your message of the day to the maximum limit allowed in TeamTalk and  "
+"append the rest of your message of the day to the new line."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:30
+msgid "Message of the day already created. Use append message of the day instead."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:37
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:113
+msgid "new message of the day added by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:45
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:121
+msgid "successfully added new message of the day"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:58
+msgid ""
+"MOTD Append message of the day. Note: Do to TeamTalk restriction, your "
+"message of the day cannot more than 512 characters per line. If your "
+"message of the day is longer than the TeamTalk restriction, please limit "
+"your message of the day to the maximum limit allowed in TeamTalk and  "
+"append the rest of your message of the day to the new line."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:76
+msgid "message of the day updated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:84
+msgid "message of the day updated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:90
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:127
+msgid ""
+"There are no message of the day available. Create new message of the day "
+"instead."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:99
+msgid ""
+"MOTD Replace message of the day. Without any text will remove message of "
+"the day. Note: Do to TeamTalk restriction, your message of the day cannot"
+" more than 512 characters per line. If your message of the day is longer "
+"than the TeamTalk restriction, please limit your message of the day to "
+"the maximum limit allowed in TeamTalk and  append the rest of your "
+"message of the day to the new line."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:134
+msgid "message of the day removed by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:142
+msgid "message of the day removed successfully"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:148
+msgid "there are no message of the day to be remove"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:155
+msgid "show all messages"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:163
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:171
+msgid "there are no messages"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:178
+msgid "clear all messages"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:189
+msgid "messages cleared"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:195
+msgid "there are no messages to be remove"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:202
+msgid ""
+"Enable or disable the message received alert. Note: In order for this "
+"feature to work, make sure this player is using an administrator account "
+"or an account that have an ability to broadcast message to the server."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:212
+msgid "message received alert is now enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:214
+msgid "message received alert is now disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:222
+msgid "check the state of the message received alert"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:228
+msgid "the current state of message received alert is enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:230
+msgid "the current state of message received alert is disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:238
+msgid "enable or disable the volume fading"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:250
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:257
+msgid "volume fading is now enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:252
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:259
+msgid "volume fading is now disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:267
+msgid ""
+"VALUE Change the volume fading interval. Without an argument show the "
+"current volume fading interval."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:276
+msgid "the volume fading interval successfully changed to {value}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:284
+msgid "current volume fading interval is {value}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:290
+msgid "check the state of the volume fading"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:296
+msgid "the current state of volume fading is enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:298
+msgid "the current state of volume fading is disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:307
+msgid ""
+"+/-COMMAND Block or unblock command. +COMMAND add command to the block "
+"list. -COMMAND remove from it. Without a command show the block list."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:319
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1178
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1276
+msgid "the list is empty"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:327
+msgid "command \"{command}\" was blocked by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:335
+msgid "successfully block the command \"{command}\""
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:342
+msgid "This command is already added"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:351
+msgid "command \"{command}\" was unblocked by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:359
+msgid "successfully unblock the command \"{command}\""
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:366
+msgid "This command is not blocked"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:374
+msgid "GENDER change player gender. N neutral, m male, f female."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:388
+msgid "gender set to male (👨) by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:396
+msgid "gender successfully set to male (👨)"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:405
+msgid "gender set to female (👩) by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:413
+msgid "gender successfully set to female (👩)"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:422
+msgid "gender set to default by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:430
+msgid "gender successfully set to default"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:436
+msgid "invalid gender"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:444
+msgid "LANGUAGE change player language"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:455
+msgid "the language has been changed to {language} by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:463
+msgid "the language has been changed to {language}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:470
+msgid "Incorrect language"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:472
+msgid ""
+"Current language: {current_language}. Available languages: "
+"{available_languages}."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:483
+msgid "NICKNAME change player nickname"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:493
+msgid "nickname was changed to {newname} by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:501
+msgid "nickname successfully changed to {newname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:513
+msgid "nickname was set to default by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:521
+msgid "nickname successfully set to default"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:531
+msgid ""
+"r/f Clear player cache. r recents, f favorites, without an option clear "
+"the entire cache"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:543
+msgid "player cache cleared by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:551
+msgid "player cache cleared"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:562
+msgid "recents played track cleared by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:570
+msgid "recents played track cleared"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:581
+msgid "favorites track cleared by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:589
+msgid "favorites track cleared"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:595
+msgid "invalid option"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:601
+msgid "change server host"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:612
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:643
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:676
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:707
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:734
+msgid "{nickname} changed the server information for this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:620
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:651
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:684
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:715
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:742
+msgid "server information successfully changed"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:631
+msgid "change server TCP Port"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:664
+msgid "change server UDP Port"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:697
+msgid ""
+"Change username for the server. If the server is not using an username, "
+"just send the command without any argument."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:724
+msgid ""
+"Change the password for the username you spesified. If the username has "
+"no password, just send the command without any argument."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:753
+msgid "show the server information"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:756
+msgid ""
+"Host: {hostname}\n"
+"TCP Port: {tcpport}\n"
+"UDP Port: {udpport}\n"
+"Username: {username}\n"
+"Password: {password}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:774
+msgid "change channel path"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:785
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:814
+msgid "{nickname} changed the channel information for this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:793
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:822
+msgid "channel information successfully changed"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:804
+msgid ""
+"Change the password for the channel you spesified. If the channel has no "
+"password, just send the command without any argument."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:833
+msgid "show the channel information"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:836
+msgid ""
+"Channel Path: {channel}\n"
+"Channel Password: {channel_password}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:849
+msgid ""
+"Move the player to another channel. First argument is channel name or ID "
+"and second argument is the password. Split an argument with \" | \" "
+"without quotation mark. Spaces is included. If the channel has no "
+"password, just ignore the second argument."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:869
+msgid "This channel does not exist"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:883
+msgid "Error joining channel: {error}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:932
+msgid "enables or disable voice transmission"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:936
+msgid "cannot toggle voice transmission while playing"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:939
+msgid "voice transmission enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:942
+msgid "voice transmission disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:948
+msgid "lock or unlock the player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:955
+msgid "player locked by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:959
+msgid "player unlocked by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:967
+msgid "player locked"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:971
+msgid "player unlocked"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:981
+msgid ""
+"STATUS Change player status. If no status provided, default status will "
+"be use."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:985
+msgid "You cannot change the status while this player is playing or paused"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:993
+msgid "status changed by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1001
+msgid "status changed"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1012
+msgid "status set to default by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1020
+msgid "status set to default"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1031
+msgid "enable or disable event handling"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1038
+msgid "event handling is enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1040
+msgid "event handling is disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1047
+msgid "enable or disable the channel messages alert for most of the commands"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1057
+msgid "channel messages alert is now enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1059
+msgid "channel messages alert is now disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1067
+msgid "check the state of the channel messages alert"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1073
+msgid "the current state of channel messages alert is enabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1075
+msgid "the current state of channel messages alert is disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1084
+msgid ""
+"+/-USERNAME Manage the list of administrators. +USERNAME add a user. "
+"-USERNAME remove it. Without an option show the list."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1096
+msgid "an anonymous user was promoted as an admin for this player by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1104
+msgid "successfully added anonymous user as an admin"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1113
+msgid "the user {username} was promoted as an admin for this player by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1121
+msgid "successfully added {username} as an admin"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1136
+msgid ""
+"an anonymous user was no longer  an admin for this player removed by "
+"{nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1144
+msgid "an anonymous user was no longer  an admin"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1153
+msgid ""
+"the user {username} was no longer  an admin for this player removed by "
+"{nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1161
+msgid "the user {username} was no longer  an admin for this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1168
+msgid "this user is not in the admin list"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1184
+msgid ""
+"+/-USERNAME Manage the list of banned users. +USERNAME add a user. "
+"-USERNAME remove it. Without an option show the list."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1196
+msgid "an anonymous user was banned from using this player by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1204
+msgid "successfully banned anonymous user from using this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1213
+msgid "the user {username} was banned from using this player by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1221
+msgid "successfully banned {username} from using this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1236
+msgid "an anonymous user was unbanned from using this player by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1244
+msgid "successfully unbanned anonymous user from using this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1253
+msgid "the user {username} was unbanned from using this player by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1261
+msgid "successfully unbanned {username} from using this player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1268
+msgid "this user is not banned"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1283
+msgid "MESSAGE Notify all users in the channel."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1305
+msgid ""
+"MESSAGE Notify all users in the server. Note: In order for this feature "
+"to work, make sure this player is using an administrator account or an "
+"account that have an ability to broadcast message to the server."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1329
+msgid ""
+"VALUE_IN_SECOND Restart the player. Each time you spesified the value, it"
+" will remember that value. If no value is spesified, it will use the last"
+" remember value. The accepted value is between 1 to 60."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1341
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1414
+msgid "this player will restart now initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1349
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1422
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1455
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1511
+msgid "this player is going to restart in 1 minute initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1357
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1606
+msgid "the maximum restart time allowed is 60 seconds (1 minute)"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1365
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1614
+msgid "the restart time cannot less than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1373
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1478
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1534
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1542
+msgid "this player is going to restart in {time} seconds initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1433
+msgid ""
+"the restart time was set to default ({time} second) due to the time is "
+"more than 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1440
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1496
+msgid "this player is going to restart in {time} second initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1448
+msgid ""
+"the restart time was set to default (1 minute) due to the time is more "
+"than 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1463
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1519
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1781
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1837
+msgid "something went wrong"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1471
+msgid ""
+"the restart time was set to default ({time} seconds) due to the time is "
+"more than 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1489
+msgid ""
+"the restart time was set to default ({time} second) due to the time is "
+"less than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1504
+msgid ""
+"the restart time was set to default (1 minute) due to the time is less "
+"than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1527
+msgid ""
+"the restart time was set to default ({time} seconds) due to the time is "
+"less than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1580
+msgid ""
+"VALUE_IN_SECOND Change the current restart time. Without an argument show"
+" the current restart time."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1589
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1623
+msgid "the restart time has now changed to {time} second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1598
+msgid "the restart time has now changed to 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1633
+msgid "current restart time is {time} second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1635
+msgid "current restart time is {time} seconds which is an invalid value"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1637
+msgid "current restart time is {time} seconds"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1644
+msgid ""
+"VALUE_IN_SECOND Shut down the player. Each time you spesified the value, "
+"it will remember that value. If no value is spesified, it will use the "
+"last remember value. The accepted value is between 1 to 60."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1656
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1732
+msgid "this player will shut down now initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1664
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1740
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1773
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1829
+msgid "this player is going to shut down in 1 minute initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1672
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1927
+msgid "the maximum shut down time allowed is 60 seconds (1 minute)"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1680
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1935
+msgid "the shut down time cannot less than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1688
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1796
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1852
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1860
+msgid ""
+"this player is going to shut down in {time} seconds initiated by "
+"{nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1695
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1867
+msgid ""
+"For more information, you can directly contact Loh Boon Keat using the "
+"contact information given below.\n"
+"{contact}\n"
+"Thanks for using {client_name}. Have a nice day!"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1751
+msgid ""
+"the shut down time was set to default ({time} second) due to the time is "
+"more than 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1758
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1814
+msgid "this player is going to shut down in {time} second initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1766
+msgid ""
+"the shut down time was set to default (1 minute) due to the time is more "
+"than 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1789
+msgid ""
+"the shut down time was set to default ({time} seconds) due to the time is"
+" more than 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1807
+msgid ""
+"the shut down time was set to default ({time} second) due to the time is "
+"less than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1822
+msgid ""
+"the shut down time was set to default (1 minute) due to the time is less "
+"than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1845
+msgid ""
+"the shut down time was set to default ({time} seconds) due to the time is"
+" less than 1 second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1901
+msgid ""
+"VALUE_IN_SECOND Change the shut down time. Without an argument show the "
+"current shut down time."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1910
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1944
+msgid "the shut down time has now changed to {time} second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1919
+msgid "the shut down time has now changed to 1 minute"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1954
+msgid "current shut down time is {time} second"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1956
+msgid "current shut down time is {time} seconds which is an invalid value"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1958
+msgid "current shut down time is {time} seconds"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1965
+msgid "track the last user who restart or shut down the player"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1971
+#: C:/Users/Calvin/Documents/MP/bot/commands/admin_commands.py:1979
+msgid "cannot track the last user who restart or shut down the bot"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/command.py:28
+msgid "help text not found"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:20
+msgid "show the list of commands"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:29
+msgid "show the getting started message"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:38
+msgid "show contact information"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:47
+msgid "show the change log"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:53
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:61
+msgid ""
+"There has no change log yet. Contact me for more info. See the commands "
+"list for the contact information command."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:67
+msgid "show message of the day"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:73
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:81
+msgid "there are no message of the day available"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:88
+msgid ""
+"MESSAGE Leave the message to an administrator. Do to TeamTalk "
+"restriction, message that you send cannot longer than 507 characters. If "
+"you need to send the message longer than the maximum characters allowed, "
+"please separate the message. If it is the case, you just need to keep the"
+" first message ID1, ID2 and the key."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:127
+msgid ""
+"Message received! Here is your ID and key. Keep it properly until your "
+"problem has been resolved!\n"
+"ID1: {id1}\n"
+"ID2: {id2}\n"
+"Key: {key}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:142
+msgid "Since your nickname is empty, your User ID is #{userid}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:151
+msgid ""
+"Alert to admins, NoName #{userid} just leave a message at {time}.\n"
+"For your reference, the following is the first 8 characters of ID1, ID2 "
+"and the key.\n"
+"ID1: {id1}\n"
+"ID2: {id2}\n"
+"Key: {key}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:169
+msgid ""
+"Alert to admins, {nickname} just leave a message at {time}.\n"
+"For your reference, the following is the first 8 characters of ID1, ID2 "
+"and the key.\n"
+"ID1: {id1}\n"
+"ID2: {id2}\n"
+"Key: {key}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:191
+msgid ""
+"QUERY Play the tracks found for  given query. If no query is given, play "
+"or pause current track."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:201
+msgid "searching for {request} requested by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:209
+msgid "searching your request"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:219
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:227
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:336
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:344
+msgid "playing"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:236
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:244
+msgid "no result found"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:253
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:261
+msgid "the selected service is currently unavailable"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:274
+msgid "playback paused by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:282
+msgid "pause playback command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:292
+msgid "playback rezumed by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:300
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:628
+msgid "rezume playback command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:310
+msgid "URL play from the given URL"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:318
+msgid "{nickname} request to play from URL ({url})"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:326
+msgid "processing URL"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:353
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:361
+msgid "incorrect protocol"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:370
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:378
+msgid "cannot get stream URL"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:387
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:395
+msgid "the path cannot be found"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:407
+msgid "stop the playback"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:421
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:441
+msgid "playback stopped by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:429
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:449
+msgid "stop playback command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:455
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:525
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:541
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:593
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:662
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:692
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:870
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1086
+msgid "nothing is playing"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:461
+msgid ""
+"VALUE Set the volume between 0 and {max_volume}. If no value is "
+"specified, show the current volume level."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:476
+msgid "volume set to {volume}% by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:484
+msgid "volume is now {volume}%"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:494
+msgid "current volume is {volume}%"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:500
+msgid "get the current position of the track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:509
+msgid "Current Position: {} ({} second)"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:517
+msgid "Current Position: {} ({} seconds)"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:535
+msgid ""
+"VALUE_IN_SECOND Seek current track backward. The default time is "
+"{seek_step} seconds."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:548
+msgid "track seeked backward {seek} seconds initiate by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:556
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:576
+msgid "seek backward command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:568
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:620
+msgid "track seeked backward {seek_step} seconds initiate by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:587
+msgid ""
+"VALUE_IN_SECOND Seek current track forward. The default time is "
+"{seek_step} seconds."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:600
+msgid "track seeked forward {seek} seconds initiate by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:608
+msgid "seek forward command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:638
+msgid "Plays next track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:646
+msgid "next track command initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:654
+msgid "next track command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:660
+msgid "no next track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:668
+msgid "Plays previous track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:676
+msgid "previous track command initiated by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:684
+msgid "previous track command initiated"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:690
+msgid "no previous track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:698
+msgid ""
+"MODE Set the playback mode. If no mode is specified, show the current "
+"mode and list all the modes."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:704
+msgid "Single Track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:705
+msgid "Repeat Track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:706
+msgid "Track List"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:707
+msgid "Repeat Track List"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:708
+msgid "Random"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:710
+msgid ""
+"Current Mode: {current_mode}\n"
+"{modes}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:732
+msgid "{nickname} change the mode to {mode}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:743
+msgid "mode successfully change to {mode}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:759
+msgid ""
+"SERVICE Select the service to play from. Use \"ServiceCommand SERVICE h\""
+" for additional help. If no service is specified, show the current "
+"service and list all available services."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:768
+msgid ""
+"Unknown service.\n"
+"{}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:776
+msgid ""
+"Current service: {}\n"
+"Warning: {}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:779
+msgid "Current service: {}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:785
+msgid ""
+"Error: {error}\n"
+"{service} is disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:792
+msgid "{service} is disabled"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:798
+msgid "This service has no additional help"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:818
+msgid "{} (Warning: {})"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:824
+msgid ""
+"Current service: {current_service}\n"
+"Available:\n"
+"{available_services}\n"
+"send sv SERVICE h for additional help"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:836
+msgid "NUMBER select track by number from the list of current results"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:849
+msgid "incorrect number"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:854
+msgid "track has been changed to number {number} by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:862
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:875
+msgid "playing track number {number}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:868
+msgid "out of list"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:877
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:944
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:962
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1008
+msgid "Nothing is playing"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:883
+msgid ""
+"VALUE Set playback speed from 0.25 to 4. If no value is given, show "
+"current speed."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:889
+msgid "the current speed is {}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:896
+msgid "speed has been changed to {speed} by {nickname}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:904
+msgid "speed is now {speed}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:916
+msgid ""
+"+/-NUMBER Manage favorite tracks. + add  current track to favorite. - "
+"remove  current track  from favorite. If a number is specified after +/-,"
+" add/remove a track with that number."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:922
+msgid "This command is not available for guest users"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:942
+msgid "Added"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:954
+msgid "Deleted"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:956
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:989
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1028
+msgid "Out of list"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:960
+msgid "This track is not in favorites"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:979
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:991
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1039
+msgid "The list is empty"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:997
+msgid "get the direct link for the current track"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1006
+msgid "URL is not available"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1014
+msgid ""
+"NUMBER Play a track with  the given number from the list of recent "
+"tracks. Without a number show recent tracks."
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1046
+msgid "download the current track and upload it to the channel"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1056
+msgid "cannot upload file to the channel"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1067
+msgid "{nickname} request to download {track}"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1078
+msgid "downloading your file"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/commands/user_commands.py:1084
+msgid "live stream cannot be downloaded"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/connectors/tt_player_connector.py:36
+msgid "Playing: {track_name} ({duration})"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/connectors/tt_player_connector.py:43
+msgid "Playing: {stream_url} ({duration})"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/connectors/tt_player_connector.py:54
+msgid "Paused: {track_name} ({duration})"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/connectors/tt_player_connector.py:60
+msgid "Paused: {stream_url} ({duration})"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/player/__init__.py:205
+#: C:/Users/Calvin/Documents/MP/bot/player/__init__.py:211
+msgid "unknown"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/services/yam.py:42
+msgid "Token is not provided"
+msgstr ""
+
+#: C:/Users/Calvin/Documents/MP/bot/services/yam.py:46
+msgid "You don't have Yandex Plus"
+msgstr ""
+
